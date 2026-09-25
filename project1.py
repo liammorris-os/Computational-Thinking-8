@@ -36,3 +36,4 @@ else:
     print("you will regret this...")
 print("Thank you for using TalkGPT!")
 print("Bye!")
+print("it was fun ragebaiting you!!!")
