@@ -21,7 +21,7 @@ if pizza_or_starbucks == "starbucks":
         else:
             print("Please type one of the answers")
 
-if pizza_or_starbucks == "pizza place":
+elif pizza_or_starbucks == "pizza place":
     pizza_food = input("What pizza will you order. pepperoni or cheese")
     
     if pizza_food == "cheese":
@@ -37,9 +37,8 @@ if pizza_or_starbucks == "pizza place":
         print("The pepperoni was very good. Thanks for playing!!!")
     else:
         print("Please pick one of the answers")
-else:
-    print("Please pick one of the answers")
-if pizza_or_starbucks == "gym":
+
+elif pizza_or_starbucks == "gym":
     work_out = input("Do you want to work out? type yes or no")
     if work_out == "yes":
         print("you have a very nice workout")
@@ -47,3 +46,5 @@ if pizza_or_starbucks == "gym":
         print("why are you at the gym then")
     else:
         print("Please type one of the answers")
+else:
+    print("Please pick one of the answers")
